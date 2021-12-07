@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# grocerymart
+Implementing E-commerce website for daily essentials and grocery shopping using MERN stack. Where user can purchase and order groceries online. Users have to login into their account first, to buy the groceries and add them into their cart and Admin can have insights of user activities
+>>>>>>> 21e3c69a690ac0a4cc18bc3d8a120d98f229f1ec
