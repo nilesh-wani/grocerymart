@@ -1,9 +1,9 @@
 
 import './App.css'
-import './components/pages/NavBar'
+import './components/NavBar'
 
 
-import Home from './components/pages/NavBar';
+import Home from './components/NavBar';
 
 
 function App() {
