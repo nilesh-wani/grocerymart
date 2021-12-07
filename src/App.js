@@ -1,8 +1,9 @@
 
 import './App.css'
-import './components/pages/headers.js'
+import './components/pages/NavBar'
 
-import Home from './components/pages/headers.js';
+
+import Home from './components/pages/NavBar';
 
 
 function App() {
