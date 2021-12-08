@@ -1,5 +1,9 @@
 import React, { useState } from "react";
 import './NavBarStyling.css'
+import logo  from '../images/Logo.png'
+import { Link,Routes,Route } from "react-router-dom";
+import Contactus from "./ContactUs"
+// import navbarbg from '../images/navbarbg.jpg'
 
 
 
@@ -9,10 +13,19 @@ function Header1() {
     const [show, setShow] = useState(false);
     return (
         <>
-            <section className=" navbar-bg">
+            <div className="navbarbg-img">
+                
+            
+            <section className=" navbar-bgn" >
+            
                 <nav class="navbar navbar-expand-lg ">
+
+                <img src={logo} class=" logo-design" alt="Logo"/>
+                    {/* Logo */}
+                        
+                    
+
                     <div class="container">
-                        <a class="navbar-brand" href="#">Navbar</a>
                         <button class="navbar-toggler"
                             type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarSupportedContent"
@@ -38,7 +51,7 @@ function Header1() {
 
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link contact-us-margin">Contact us</a>
+                                    <Link class="nav-link contact-us-margin" to="./ContactUs">Contact us</Link>
                                 </li>
                             </ul>
 
@@ -96,7 +109,7 @@ function Header1() {
 
         
 
-
+            </div>
 
            
 
@@ -105,8 +118,12 @@ function Header1() {
 
 
 
+        
+        {/* <Routes>
+            <Route path="/Contactus" element={<ContactUS/>} />
 
-
+            
+        </Routes> */}
         </>
     );
 }
